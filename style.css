@@ -1,0 +1,66 @@
+body {
+  font-family: "Noto Sans JP", "YuGo-Medium";
+  margin: 0px;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+/* */
+aside {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+.left {
+  width: 20vw;
+}
+.main {
+  flex-grow: 2;
+}
+.right {
+  width: 20vw;
+}
+.prof-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.prof-icon img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.prof > div,
+figure,
+.sns-link,
+.name,
+p {
+  margin: 1vh auto;
+  text-align: center;
+}
+
+p {
+  color: rgba(145, 145, 145, 0.5);
+  font-size: 0.8em;
+}
+
+.name,
+.sns-link {
+  font-size: 1.5em;
+}
+
+figure {
+  margin-top: calc(50vh - 180px);
+  border: solid 2px gray;
+}
