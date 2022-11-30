@@ -1,5 +1,6 @@
 body {
 	font-family: "Noto Sans JP", "YuGo-Medium";
+	margin: 0;
 }
 
 html,
@@ -31,5 +32,4 @@ img {
 	margin-top: calc(30vh);
 	border: solid 2px gray;
 	margin: 0 auto;
-	text-align: center;
 }
