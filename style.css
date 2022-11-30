@@ -1,30 +1,10 @@
 body {
 	font-family: "Noto Sans JP", "YuGo-Medium";
-	margin: 0px;
 }
 
 html,
 body {
 	overflow: hidden;
-}
-
-.prof-icon {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	position: relative;
-}
-
-.prof-icon img {
-	width: 100%;
-	height: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
 }
 
 .prof>div,
@@ -51,8 +31,4 @@ img {
 	border-radius: 50%;
 	margin-top: calc(30vh);
 	border: solid 2px gray;
-}
-
-main>* {
-	margin: 0 auto;
 }
