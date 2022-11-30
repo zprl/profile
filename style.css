@@ -53,6 +53,6 @@ img {
 	border: solid 2px gray;
 }
 
-main > *{
+main>* {
 	margin: 0 auto;
 }
