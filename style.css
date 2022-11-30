@@ -8,13 +8,6 @@ body {
 	overflow: hidden;
 }
 
-/* */
-aside {
-	display: flex;
-	align-items: stretch;
-	height: 100vh;
-}
-
 .prof-icon {
 	width: 200px;
 	height: 200px;
@@ -53,12 +46,13 @@ p {
 	font-size: 1.5em;
 }
 
-figure {}
-
-
 img {
 	object-fit: cover;
 	border-radius: 50%;
 	margin-top: calc(40vh);
 	border: solid 2px gray;
+}
+
+main > *{
+	text-align: center;
 }
