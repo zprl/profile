@@ -38,12 +38,12 @@ p {
 
 p {
 	color: rgba(145, 145, 145, 0.5);
-	font-size: 0.8em;
+	font-size: 0.8vh;
 }
 
 .name,
 .sns-link {
-	font-size: 1.5em;
+	font-size: 1.3vh;
 }
 
 img {
