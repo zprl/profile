@@ -7,12 +7,17 @@ body {
 	overflow: hidden;
 }
 
+.prof > * {
+	margin: 0 auto;
+}
 .sns-link,
 .name,
 p {
 	margin: 1vh auto;
 	color: rgba(145, 145, 145, 0.5);
 	font-size: 0.8vh;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .name,
@@ -26,4 +31,5 @@ img {
 	margin-top: calc(30vh);
 	border: solid 2px gray;
 	margin: 0 auto;
+	text-align: center;
 }
