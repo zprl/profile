@@ -49,7 +49,7 @@ p {
 img {
 	object-fit: cover;
 	border-radius: 50%;
-	margin-top: calc(40vh);
+	margin-top: calc(30vh);
 	border: solid 2px gray;
 }
 
