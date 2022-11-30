@@ -31,4 +31,5 @@ img {
 	border-radius: 50%;
 	margin-top: calc(30vh);
 	border: solid 2px gray;
+	margin: 0 auto;
 }
