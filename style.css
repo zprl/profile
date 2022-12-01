@@ -18,6 +18,8 @@ body {
 h1 {
 	color: black;
 	font-size: 1em;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -38,11 +40,11 @@ body {
 
 .sns-link,
 .name,
-p {
+p,h1{
 	margin: 1vh auto;
 	color: rgba(145, 145, 145, 0.5);
 	font-size: 0.8vh;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	text-align: center;
 }
 
