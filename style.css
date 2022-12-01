@@ -2,6 +2,10 @@ body {
 	font-family: "Noto Sans JP", "YuGo-Medium";
 }
 
+.main {
+	height: 100vh;
+}
+
 .icon {
 	border-radius: 50%;
 	width: 15vh;
@@ -17,15 +21,10 @@ body {
 
 h1 {
 	color: black;
-	font-size: 1em;
+	font-size: 4vh !important;
 	padding: 0;
-	margin: 0;
+	margin: 5px;
 }
-
-
-
-
-
 
 body {
 	font-family: "Noto Sans JP", "YuGo-Medium";
@@ -38,17 +37,20 @@ body {
 }
 
 
-.sns-link,
+.link,
 .name,
-p,h1{
+p,
+h1,
+h2 {
 	margin: 1vh auto;
 	color: rgba(145, 145, 145, 0.5);
-	font-size: 0.8vh;
-	margin: 0 auto !important;
+	font-size: 3vh;
+	margin: 5px auto !important;
 	text-align: center;
+	width: 50%;
 }
 
-.name,
-.sns-link {
-	font-size: 4vh;
+.link-icon {
+	display: flex;
+	margin: 1vh;
 }
